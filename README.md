@@ -9,7 +9,7 @@ Change directory into the directory containing your website files.
 `wget https://raw.githubusercontent.com/tiMaxal/HNS-server-NW/main/new`  
 `sudo chmod +x new`  
 `sudo ./new <HNSDOMAIN>` # Use your TLD. This adds a wildcard so *.[HNSDOMAIN] will point to these files  
-[make sure to use '*' and not '@' for Varo name-field with TLSA record]
+[make sure to use '\*' and not '@' for Varo name-field with TLSA record]
 
 Add a new SLD (or dedicated TLD ONLY) to a previously setup Linux server. This uses the prexisting SSL Cert. So add the same TLSA as the previously generated one.  
 Change directory into the directory containing your website files.  
